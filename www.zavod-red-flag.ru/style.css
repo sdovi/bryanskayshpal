@@ -4,23 +4,21 @@
 }
 
 @media screen and (min-width: 768px) {
-/* Убедитесь, что селектор достаточно специфичен, 
+  /* Убедитесь, что селектор достаточно специфичен, 
    чтобы переопределить стили Tilda и не юзатронуть другие блоки */
-   .t776__parent[data-blocks-per-row="4"] { 
+  .t776__parent[data-blocks-per-row="4"] {
     /* Можно попробовать использовать Grid или Flexbox для переопределения */
     /* Пример с Grid */
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Задает 3 равные колонки */
     gap: 30px; /* Укажите нужный отступ между колонками, 
                   Tilda обычно использует 20px или 30px */
-}
+  }
 
-.t776__parent[data-blocks-per-row="4"] .t776__col {
+  .t776__parent[data-blocks-per-row="4"] .t776__col {
     width: auto !important; /* Сбросить ширину, заданную классами t-col_ */
-    max-width: 100%; 
-}
-
-  
+    max-width: 100%;
+  }
 }
 
 .t214__blockimg {
@@ -30,6 +28,10 @@
   /* background-position: center center !important; */
 }
 
-.t-menu__link-item{
+.t-menu__link-item {
   color: black !important; /* Цвет текста в списке */
+  font-size: 14px !important;
+  text-align: center  !important;
+  display: flex;
+  font-weight: 700 !important;
 }
