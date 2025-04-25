@@ -22,3 +22,14 @@
 
   
 }
+
+.t214__blockimg {
+  background-size: 70% auto !important; /* Например, 90% ширины, высота авто */
+  /* Или можно указать оба значения, например: background-size: 85% 85% !important; */
+  /* background-repeat: no-repeat !important; */
+  /* background-position: center center !important; */
+}
+
+.t-menu__link-item{
+  color: black !important; /* Цвет текста в списке */
+}
