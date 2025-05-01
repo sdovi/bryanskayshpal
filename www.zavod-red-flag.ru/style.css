@@ -31,16 +31,65 @@
 .t-menu__link-item {
   color: black !important; /* Цвет текста в списке */
   font-size: 14px !important;
-  text-align: center  !important;
+  text-align: center !important;
   display: flex;
   font-weight: 700 !important;
 }
 
-.t862__quiz-description-text{
- font-size: 40px !important; 
+.t862__quiz-description-text {
+  font-size: 40px !important;
 }
-.t-btn__text2{
-  
+.t-btn__text2 {
   text-decoration: none;
+}
 
+.t967__menualign_left {
+  justify-content: space-between !important;
+  align-items: center !important;
+  display: flex !important;
+}
+.t-slides__arrow_body-light {
+  display: none;
+}
+
+.t-slides__bullet_wrapper {
+  display: none;
+}
+@media screen and (max-width: 1567px) {
+
+  .t554__card-wrapper {
+
+    left: 930px !important;
+  
+  }
+  
+}
+@media screen and (max-width: 1267px) {
+
+  .t554__card-wrapper {
+
+    left: 730px !important;
+  
+  }
+  
+}
+@media screen and (max-width:1067px) {
+
+  .t554__card-wrapper {
+
+    left: 530px !important;
+  
+  }
+  
+}
+.t214__title{
+  text-align: center !important;
+}
+
+#rec24609528 .t-section__title {
+  margin-bottom:35px !important;
+}
+
+.t-animate_started_p{
+  margin-bottom: 60px !important;
 }
