@@ -35,6 +35,9 @@
   display: flex;
   font-weight: 700 !important;
 }
+.p_kachestvo{
+  font-size: 19px !important;
+}
 
 .t862__quiz-description-text {
   font-size: 40px !important;
@@ -92,4 +95,7 @@
 
 .t-animate_started_p{
   margin-bottom: 60px !important;
+}
+.t214__container_mobile-flex {
+  display: none !important;
 }
