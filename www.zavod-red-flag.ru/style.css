@@ -124,6 +124,10 @@
   display: none !important;
 } 
 
+.ostavit_zayavku:hover{
+  background-color: #00c3ff !important;
+}
+
 
 
 
