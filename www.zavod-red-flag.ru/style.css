@@ -85,6 +85,27 @@
   }
   
 }
+@media screen and (max-width:480px) {
+
+  .t554__card-wrapper {
+
+    left: 530px !important;
+  
+  }
+  
+.class_block_gte_kalkulator{
+  margin-top:500px;
+}
+.nav_br_block_yes-mobile{
+  display: block !important;
+  text-align: center;
+}
+  
+.nav_br_block_yes-mobile p{
+  padding: 5px 0px;
+}
+  
+}
 .t214__title{
   text-align: center !important;
 }
@@ -109,7 +130,6 @@
 .t898__btn_input{
   display: none !important;
 }
-
 
 
 .t898__icon-write{
